@@ -21,7 +21,9 @@ def arithmetic_arranger(problems):
           spacesToAdd -= 1
 
         # make it right align
-        x.rjust(spacesToAdd)
+        while spacesToAdd > 0:
+            x = ' '+x
+            spacesToAdd -= 1
 
       # save x in lines
       if i == 0:
@@ -37,5 +39,5 @@ def arithmetic_arranger(problems):
       i += 1
 
       
-  resp = l1 + "\n" + l2;
+  resp = l1 + "\n" + l2
   return resp
