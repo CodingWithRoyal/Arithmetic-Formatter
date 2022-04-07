@@ -1,5 +1,5 @@
 ### Result
-!(Test Result)[result.jpg]
+![Test Result](result.jpg)
 
 
 ### Assignment
